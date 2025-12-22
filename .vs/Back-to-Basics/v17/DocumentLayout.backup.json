@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\assets\\_unity essentials\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|solutionrelative:assets\\_unity essentials\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|s:\\\u002B\u002B\u002B (3) dev \u002B\u002B\u002B\\unity\\unity essentials\\final cut\\back-to-basics\\assets\\_unity essentials\\source files\\scripts\\checkcodeentered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|solutionrelative:assets\\_unity essentials\\source files\\scripts\\checkcodeentered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\assets\\_unity essentials\\source files\\scripts\\customscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|solutionrelative:assets\\_unity essentials\\source files\\scripts\\customscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\assets\\_unity essentials\\scripts\\livingdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|solutionrelative:assets\\_unity essentials\\scripts\\livingdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\assets\\_unity essentials\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B66EC28F-4F37-4E2D-D3AF-AFF122CD07DF}|Assembly-CSharp.csproj|solutionrelative:assets\\_unity essentials\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Scripts\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Unity Essentials\\Scripts\\LevelManager.cs",
+              "ToolTip": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Scripts\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\_Unity Essentials\\Scripts\\LevelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:47:21.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LivingDoor.cs",
+              "DocumentMoniker": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Scripts\\LivingDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\_Unity Essentials\\Scripts\\LivingDoor.cs",
+              "ToolTip": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Scripts\\LivingDoor.cs",
+              "RelativeToolTip": "Assets\\_Unity Essentials\\Scripts\\LivingDoor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T01:57:10.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomSceneManager.cs",
+              "DocumentMoniker": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Source Files\\Scripts\\CustomSceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Unity Essentials\\Source Files\\Scripts\\CustomSceneManager.cs",
+              "ToolTip": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Source Files\\Scripts\\CustomSceneManager.cs",
+              "RelativeToolTip": "Assets\\_Unity Essentials\\Source Files\\Scripts\\CustomSceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T01:15:15.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckCodeEntered.cs",
+              "DocumentMoniker": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Source Files\\Scripts\\CheckCodeEntered.cs",
+              "RelativeDocumentMoniker": "Assets\\_Unity Essentials\\Source Files\\Scripts\\CheckCodeEntered.cs",
+              "ToolTip": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Source Files\\Scripts\\CheckCodeEntered.cs",
+              "RelativeToolTip": "Assets\\_Unity Essentials\\Source Files\\Scripts\\CheckCodeEntered.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T00:16:44.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoorOpener.cs",
+              "DocumentMoniker": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Scripts\\DoorOpener.cs",
+              "RelativeDocumentMoniker": "Assets\\_Unity Essentials\\Scripts\\DoorOpener.cs",
+              "ToolTip": "S:\\\u002B\u002B\u002B (3) Dev \u002B\u002B\u002B\\Unity\\Unity Essentials\\Final Cut\\Back-to-Basics\\Assets\\_Unity Essentials\\Scripts\\DoorOpener.cs",
+              "RelativeToolTip": "Assets\\_Unity Essentials\\Scripts\\DoorOpener.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:59:26.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
