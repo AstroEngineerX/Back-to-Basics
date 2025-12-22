@@ -7,6 +7,7 @@ public class Collectible2D : MonoBehaviour
 
     public float rotationSpeed = 0.5f;
     public GameObject onCollectEffect;
+    public AudioClip collectSFX;
 
     // Update is called once per frame
     void Update()
@@ -20,12 +21,20 @@ public class Collectible2D : MonoBehaviour
         
          // Check if the other object has a PlayerController2D component
         if (other.GetComponent<PlayerController2D>() != null) {
-            
+
+            // Play the collect sound effect
+            if (collectSFX != null)
+            {
+                AudioSource.PlayClipAtPoint(collectSFX, transform.position);
+            }
+
             // Destroy the collectible
             Destroy(gameObject);
 
             // Instantiate the particle effect
             Instantiate(onCollectEffect, transform.position, transform.rotation);
+
+            LevelManager.instance.CollectibleCollected(); // <- Track progress
         }
 
         

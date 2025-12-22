@@ -1,28 +1,28 @@
 using UnityEngine;
 
-
 public class DoorOpener : MonoBehaviour
 {
-    private Animator doorAnimator;
-
+    public static bool doorShouldBeOpen = false;
 
     void Start()
     {
-        // Get the Animator component attached to the same GameObject as this script
-        doorAnimator = GetComponent<Animator>();
+        if (doorShouldBeOpen)
+        {
+            OpenDoor();
+            doorShouldBeOpen = false; // Reset the flag
+        }
     }
 
-
-    private void OnTriggerEnter(Collider other)
+    void OpenDoor()
     {
-        // Check if the object entering the trigger is the player (or another specified object)
-        if (other.CompareTag("Player")) // Make sure the player GameObject has the tag "Player"
+        Animator doorAnimator = GetComponent<Animator>();
+        if (doorAnimator != null)
         {
-            if (doorAnimator != null)
-            {
-                // Trigger the Door_Open animation
-                doorAnimator.SetTrigger("Door_Open");
-            }
+            doorAnimator.SetTrigger("Door_Open");
+        }
+        else
+        {
+            Debug.LogWarning("Animator component not found on the door.");
         }
     }
 }

@@ -5,6 +5,18 @@ public class CustomSceneManager : MonoBehaviour
 {
     // Static reference to the instance of our SceneManager
     public static CustomSceneManager instance;
+    public string Bonus_Scene;
+
+    void OnTriggerEnter(Collider other)
+    {
+
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(Bonus_Scene, LoadSceneMode.Additive);
+            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
+        }
+
+    }
 
     private void Awake()
     {

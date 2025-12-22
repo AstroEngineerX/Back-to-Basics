@@ -7,6 +7,9 @@ TagManager:
   - Crate
   - Dirt
   - CinemachineTarget
+  - Cat
+  - Dog
+  - Collectible
   layers:
   - Default
   - TransparentFX
