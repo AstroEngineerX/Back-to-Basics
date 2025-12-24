@@ -805,3 +805,708 @@ Memory consumption went from 171.7 MB to 167.3 MB.
 Total: 7.833100 ms (FindLiveObjects: 0.718000 ms CreateObjectMapping: 0.385800 ms MarkObjects: 4.602300 ms  DeleteObjects: 2.126200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1231ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (637ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (502ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.74 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7084 unused Assets / (4.2 MB). Loaded Objects now: 7939.
+Memory consumption went from 171.7 MB to 167.5 MB.
+Total: 7.739200 ms (FindLiveObjects: 0.817400 ms CreateObjectMapping: 0.517400 ms MarkObjects: 4.346000 ms  DeleteObjects: 2.057600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 980.886812 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/R_Eye.prefab
+  artifactKey: Guid(cd0965057b2ea34489e5d81217ef1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/R_Eye.prefab using Guid(cd0965057b2ea34489e5d81217ef1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '569f86f6d9165e23b92ceee34411cf99') in 0.4151516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.155119 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie_Eyes.prefab
+  artifactKey: Guid(caac1e46e52731a4389d94dbfbd20557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie_Eyes.prefab using Guid(caac1e46e52731a4389d94dbfbd20557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2ef00fe2228da124d0dac37cff8ff28') in 0.0458341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1453
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.034890 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Kazooie.controller
+  artifactKey: Guid(db887d9a40b5c034a873ab0149a268f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Kazooie.controller using Guid(db887d9a40b5c034a873ab0149a268f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5db875fe08f37298c2ec49174c41750') in 0.0028376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.015052 seconds.
+  path: Assets/_Unity Essentials/Source Files
+  artifactKey: Guid(a44397a16ce1d41baa302c0b42bc1aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Source Files using Guid(a44397a16ce1d41baa302c0b42bc1aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbe3d9287d98e339a42c0dd2138dbaf2') in 0.0005782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.328394 seconds.
+  path: Assets/_Unity Essentials/Scenes/Bonus_Scene.unity
+  artifactKey: Guid(9f23fd4a84396415f878719f61b600b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Scenes/Bonus_Scene.unity using Guid(9f23fd4a84396415f878719f61b600b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d550590ab6a8d784ee6f0e054800493') in 0.129824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie_Eyes.prefab
+  artifactKey: Guid(caac1e46e52731a4389d94dbfbd20557) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie_Eyes.prefab using Guid(caac1e46e52731a4389d94dbfbd20557) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4c5133c45d497fcb91dffd36433efb6') in 0.0404048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 462
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.246707 seconds.
+  path: Assets/_Unity Essentials/Source Files/Animators
+  artifactKey: Guid(952ee2048c86ac24a8320491a78e9fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Source Files/Animators using Guid(952ee2048c86ac24a8320491a78e9fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8369ba823e3907bf19684bdabd69247a') in 0.0007289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.663560 seconds.
+  path: Assets/_Unity Essentials/Source Files/Animators
+  artifactKey: Guid(952ee2048c86ac24a8320491a78e9fe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Source Files/Animators using Guid(952ee2048c86ac24a8320491a78e9fe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '666bef46e7f04bc0660fca8af58011dd') in 0.010778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Unity Essentials/Source Files/Animators/Kazooie.controller
+  artifactKey: Guid(db887d9a40b5c034a873ab0149a268f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Source Files/Animators/Kazooie.controller using Guid(db887d9a40b5c034a873ab0149a268f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0a77fd0488cd790f7bfae21ddc55f9d') in 0.0116828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.397342 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx
+  artifactKey: Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx using Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc747d3690d113638dbe7e2a1f1ce97c') in 0.781561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 878
+
+========================================================================
+Received Import Request.
+  Time since last request: 1290.621220 seconds.
+  path: Assets/_Unity Essentials/Scenes/Bonus_Scene.unity
+  artifactKey: Guid(9f23fd4a84396415f878719f61b600b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Scenes/Bonus_Scene.unity using Guid(9f23fd4a84396415f878719f61b600b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '141301ff9176212619aaf5a9339efb1d') in 0.0212989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.651 seconds
+Domain Reload Profiling: 1291ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (652ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.07 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.6 MB). Loaded Objects now: 7961.
+Memory consumption went from 173.3 MB to 168.7 MB.
+Total: 8.542300 ms (FindLiveObjects: 0.711500 ms CreateObjectMapping: 0.718400 ms MarkObjects: 4.989200 ms  DeleteObjects: 2.122400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.596 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.658 seconds
+Domain Reload Profiling: 1257ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (658ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.86 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7084 unused Assets / (4.4 MB). Loaded Objects now: 7963.
+Memory consumption went from 173.2 MB to 168.8 MB.
+Total: 8.125600 ms (FindLiveObjects: 0.665700 ms CreateObjectMapping: 0.708500 ms MarkObjects: 4.750400 ms  DeleteObjects: 2.000100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 122.155535 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx
+  artifactKey: Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx using Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d138e844d469a156b1a1acd78308ced') in 1.0052349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 878
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.036040 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx
+  artifactKey: Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx using Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ea338a0fca355ce1b2e745a0f92950e') in 0.7004067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 878
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (173ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (500ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.16 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.3 MB). Loaded Objects now: 7985.
+Memory consumption went from 173.5 MB to 169.1 MB.
+Total: 7.625600 ms (FindLiveObjects: 0.804700 ms CreateObjectMapping: 0.644000 ms MarkObjects: 4.045700 ms  DeleteObjects: 2.130300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 106.508758 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx
+  artifactKey: Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx using Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81a1885b27c8f8bbe030997bc186ac96') in 1.0256652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 994
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.568074 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx
+  artifactKey: Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx using Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '112f37d691bcdb0b1a00d8e6ae4801c6') in 0.6198105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 877
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.615 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.628 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (629ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.69 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.4 MB). Loaded Objects now: 8007.
+Memory consumption went from 173.7 MB to 169.3 MB.
+Total: 8.865000 ms (FindLiveObjects: 1.244700 ms CreateObjectMapping: 0.477100 ms MarkObjects: 4.742700 ms  DeleteObjects: 2.399800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.905121 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx
+  artifactKey: Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx using Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6be4b32f0e5a6d444e9d529ada944c00') in 0.9919197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 876
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.620 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.70 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.4 MB). Loaded Objects now: 8029.
+Memory consumption went from 175.8 MB to 171.4 MB.
+Total: 8.758300 ms (FindLiveObjects: 0.721800 ms CreateObjectMapping: 0.545700 ms MarkObjects: 5.330200 ms  DeleteObjects: 2.159700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.723598 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx
+  artifactKey: Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Banjo & Kazooie.fbx using Guid(f051dd48226bc92468f22be0c77e15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71cef17d42ec30d718d24cfd69189fa1') in 1.0569801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 878
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.640 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.697 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (697ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (532ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.46 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.3 MB). Loaded Objects now: 8051.
+Memory consumption went from 175.9 MB to 171.5 MB.
+Total: 7.829000 ms (FindLiveObjects: 0.734200 ms CreateObjectMapping: 0.514200 ms MarkObjects: 4.473400 ms  DeleteObjects: 2.106400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.694743 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/L_Eye.prefab
+  artifactKey: Guid(a7bac3949e7e5014bb48dc4c0b598e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/L_Eye.prefab using Guid(a7bac3949e7e5014bb48dc4c0b598e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0cba6c746bed2ad540f1aa6d6a43ef3') in 0.383214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.240138 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx
+  artifactKey: Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx using Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0344d23814461fb1871400d4e4f1a8b8') in 0.5958696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 779
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.120946 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx
+  artifactKey: Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx using Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2892d8dde28dc096cfb5a749dbfd7f8d') in 0.7291288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 781
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.876761 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/R_Eye.prefab
+  artifactKey: Guid(cd0965057b2ea34489e5d81217ef1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/R_Eye.prefab using Guid(cd0965057b2ea34489e5d81217ef1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf0b808cfa9271e307900b42d24e8930') in 0.0139125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.128358 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx
+  artifactKey: Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx using Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2049cdd53347a33e47d48b8905bad9aa') in 0.5977384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 869
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.519551 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx
+  artifactKey: Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx using Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b9ba74a6c806e00db620ba59063f586') in 0.6662907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 871
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.604721 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx
+  artifactKey: Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie.fbx using Guid(3b7ba3c18bea0ad4b85ca7cca4d387de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '697ea0d8d959eac5230efa3fbfc50ac2') in 0.5782705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 871
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.648649 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/R_Eye.prefab
+  artifactKey: Guid(cd0965057b2ea34489e5d81217ef1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/R_Eye.prefab using Guid(cd0965057b2ea34489e5d81217ef1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f987cd706522f397b41f3f6963e0ba2e') in 0.0078383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.747932 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/alp_buddy_005.mat
+  artifactKey: Guid(57e74ae2e4a93c24bb111ac3979634b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Materials/My Materials/alp_buddy_005.mat using Guid(57e74ae2e4a93c24bb111ac3979634b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa616b9f0968b05e08cdcd1e6f90b067') in 0.0740403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/Eye_L.mat
+  artifactKey: Guid(9a8503c226cba5c43926b1a5893962f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Materials/My Materials/Eye_L.mat using Guid(9a8503c226cba5c43926b1a5893962f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f56f000a97d2922e9ff521b70f4ca8e9') in 0.0124175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/def_partner_001_alp.mat
+  artifactKey: Guid(3aa0e0e55f701794493d7c72b18cc789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Materials/My Materials/def_partner_001_alp.mat using Guid(3aa0e0e55f701794493d7c72b18cc789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b53c838e84c6be8b3db40cc387fbf29') in 0.0128363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/EyeL.mat
+  artifactKey: Guid(3fcea1043bdb65c4a8055218f7f44f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Materials/My Materials/EyeL.mat using Guid(3fcea1043bdb65c4a8055218f7f44f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '607e54e9c165f395924323197c176367') in 0.0111193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.188820 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/alp_buddy_003.mat
+  artifactKey: Guid(0811c7ac3eab79a4c9ace3fa1d6ee3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Unity Essentials/Materials/My Materials/alp_buddy_003.mat using Guid(0811c7ac3eab79a4c9ace3fa1d6ee3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bceacf604c2eb9181e7d9611ffa0c7ce') in 0.0139753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.857751 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/alp_buddy_004.mat
+  artifactKey: Guid(8dbe1bbeb43038f419d150a993c840eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Materials/My Materials/alp_buddy_004.mat using Guid(8dbe1bbeb43038f419d150a993c840eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98d8fbcc513ffeafa335631d1da861e0') in 0.151937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/alp_buddy_001.mat
+  artifactKey: Guid(7ee42935fe59a334888e1f1c82febfd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Materials/My Materials/alp_buddy_001.mat using Guid(7ee42935fe59a334888e1f1c82febfd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7774bcb263f98e34e2cff3dfcca0a633') in 0.0125877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/alp_partner_001.mat
+  artifactKey: Guid(c9038a99c83cbd04d8d2908aaebfb8e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Materials/My Materials/alp_partner_001.mat using Guid(c9038a99c83cbd04d8d2908aaebfb8e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a11ff73f91e0558ef4332bdc3429683a') in 0.0126471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/alp_buddy_002.mat
+  artifactKey: Guid(60c45fc14f154914e9d5d232d078294b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Materials/My Materials/alp_buddy_002.mat using Guid(60c45fc14f154914e9d5d232d078294b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be0eea78f8bcd2b82d989a401d998a83') in 0.0128326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Unity Essentials/Materials/My Materials/alp_buddy_006.mat
+  artifactKey: Guid(54fcb0a5fbc778242a52d4cb24425fdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Materials/My Materials/alp_buddy_006.mat using Guid(54fcb0a5fbc778242a52d4cb24425fdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '461c53d48ac5f6730ea03befca0d3d09') in 0.011017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.250268 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Textures/eye_buddy_b_l_col.png
+  artifactKey: Guid(38957c237ea619b4290a691f7899d713) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Textures/eye_buddy_b_l_col.png using Guid(38957c237ea619b4290a691f7899d713) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf7939ae442f8dc46134af527a480c4f') in 0.0372287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.065758 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/alp_buddy_002.mat
+  artifactKey: Guid(60c45fc14f154914e9d5d232d078294b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/alp_buddy_002.mat using Guid(60c45fc14f154914e9d5d232d078294b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a636bb40e9dec7190e9a51bb9702f91') in 0.0136913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/alp_partner_001.mat
+  artifactKey: Guid(c9038a99c83cbd04d8d2908aaebfb8e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/alp_partner_001.mat using Guid(c9038a99c83cbd04d8d2908aaebfb8e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2007782e71e5e52f79b1efe50947eeb6') in 0.0124307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/Eye_R.mat
+  artifactKey: Guid(89ecf6e370463414cb120abc628edf26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/Eye_R.mat using Guid(89ecf6e370463414cb120abc628edf26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c980c0855b60297468581a68c0aa6ab') in 0.0119821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/def_partner_001.mat
+  artifactKey: Guid(036af6e170fca5443bf7312f189f7a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/def_partner_001.mat using Guid(036af6e170fca5443bf7312f189f7a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2a1ce27527dc16e03a9a7bd421f65b8') in 0.0115874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/EyeL1.mat
+  artifactKey: Guid(22555d938b5467f45a8592498a765845) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/EyeL1.mat using Guid(22555d938b5467f45a8592498a765845) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a4bcb524721c2f66b4bcff0cd6f0880') in 0.0107343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/alp_buddy_005.mat
+  artifactKey: Guid(57e74ae2e4a93c24bb111ac3979634b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/alp_buddy_005.mat using Guid(57e74ae2e4a93c24bb111ac3979634b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbd597d6d9b96a7431ca8e5cdf64a3b2') in 0.0100086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/EyeR1.mat
+  artifactKey: Guid(ed6f675cf366e094b9bb0b63f88e41ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Unity Essentials/Prefabs/My Prefabs/Banjo & Kazooie/Materials/EyeR1.mat using Guid(ed6f675cf366e094b9bb0b63f88e41ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48e953f3c4ab55ac072f331fd7f5fecb') in 0.0109148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
